@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pomodoro - FCC challenge</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body class="full-height">
+	<div class="wrapper">
+		<div class="buttons">
+			<button id="start" class="btn btn-start">Pomodoro</button>
+			<button id="start-break" class="btn btn-break"> Break</button>
+			<button id="stop" class="btn btn-stop">Stop</button>
+			<button id="reset" class="btn btn-reset">Reset</button>
+		</div>
+
+		<div id="pomodoro" class="display">
+			Pomodoro™
+		</div>
+
+		<div class="inputs">
+			<label class="label" for="work">Pomodoro</label>
+			<input id="work" class="time-input" type="number" min="1" max="55" value="25">
+			<label class="label" for="break">Break</label>
+			<input id="break" class="time-input" type="number" min="1" max="9" value="5">
+		</div>
+		<audio id="audio" src="clap.wav"></audio>
+	</div>
+</body>
+<script src="index.js"></script>
+</html>

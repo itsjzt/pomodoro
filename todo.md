@@ -1,0 +1,2 @@
+- break will start after timer
+- timer and break will take input from fields
